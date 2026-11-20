@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechPulse 2026 | College Fest &amp; Campus Club</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Announcement Banner -->
+  <div class="announcement-bar" role="region" aria-label="Fest Announcement">
+    <span>🎉 Early-bird team passes &amp; workshop seats are now open for <strong>TechPulse 2026</strong>!</span>
+    <a href="#register">Register Today →</a>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-mark">&lt;/&gt;</span> TechPulse 2026
+      </a>
+
+      <nav id="nav-menu" class="nav-links" aria-label="Primary Navigation">
+        <a href="#hero">Home</a>
+        <a href="#events">Events</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#team">Team</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#faq">FAQ</a>
+        <a href="#register" class="btn-nav">Register</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle Light or Dark Theme">🌙</button>
+        <button id="hamburger" class="hamburger" type="button" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="shape shape-a" aria-hidden="true"></div>
+      <div class="shape shape-b" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <div class="status-row">
+          <span class="status-badge"><span class="pulse-dot"></span> Registrations Open</span>
+          <span class="theme-tag">Theme: Next-Gen Builders &amp; Campus Culture</span>
+        </div>
+
+        <h1 class="hero-title">Innovate. Create. <span class="gradient-text">Celebrate.</span></h1>
+        <p class="hero-subtitle">
+          Three days of coding hackathons, esports tournaments, robotics challenges, live music, and design sprints hosted by the Campus Coding &amp; Cultural Clubs[cite: 4].
+        </p>
+
+        <div class="hero-meta">
+          <div class="meta-card">📅 <strong>Date:</strong> April 17–19, 2027</div>
+          <div class="meta-card">📍 <strong>Venue:</strong> Main Auditorium &amp; Tech Quad</div>
+        </div>
+
+        <!-- Countdown Banner -->
+        <div class="countdown-banner" aria-label="Countdown to TechPulse 2026">
+          <div class="time-unit"><span id="days">00</span><small>Days</small></div>
+          <div class="time-unit"><span id="hours">00</span><small>Hours</small></div>
+          <div class="time-unit"><span id="minutes">00</span><small>Minutes</small></div>
+          <div class="time-unit"><span id="seconds">00</span><small>Seconds</small></div>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#register" class="btn btn-primary">Register Now</a>
+          <a href="#events" class="btn btn-secondary">Explore Events</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section (5+ Events in CSS Grid) -->
+    <section id="events" class="section">
+      <div class="container">
+        <h2 class="section-title">Featured Events &amp; Activities</h2>
+        <p class="section-subtitle">Pick your track across technical, gaming, robotics, cultural, design, and showcase events[cite: 4].</p>
+
+        <div class="events-grid">
+          <article class="event-card">
+            <div class="card-top">
+              <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Students collaborating during a hackathon" />
+              <span class="event-tag">Technical</span>
+            </div>
+            <div class="card-body">
+              <h3>HackPulse 24-Hr Hackathon</h3>
+              <p>Collaborate in teams of 2–4 to ship web, AI, or campus utility apps before the 24-hour clock runs out.</p>
+              <ul class="event-meta">
+                <li><strong>Timing:</strong> Day 1 • 10:00 AM</li>
+                <li><strong>Location:</strong> Computing Lab 3</li>
+              </ul>
+              <a href="#register" class="btn-small">Register for Event</a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="card-top">
+              <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80" alt="Esports tournament setup with gaming monitors" />
+              <span class="event-tag">Gaming</span>
+            </div>
+            <div class="card-body">
+              <h3>CyberClash Esports Arena</h3>
+              <p>Single-elimination squad brackets featuring fast-paced tactical and arena titles on stage.</p>
+              <ul class="event-meta">
+                <li><strong>Timing:</strong> Day 2 • 11:00 AM</li>
+                <li><strong>Location:</strong> Student Activity Hall</li>
+              </ul>
+              <a href="#register" class="btn-small">Register for Event</a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="card-top">
+              <img src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=600&q=80" alt="Robotics hardware and circuit testing" />
+              <span class="event-tag">Robotics</span>
+            </div>
+            <div class="card-body">
+              <h3>RoboWars &amp; Line Follower</h3>
+              <p>Test autonomous line-following bots and remote-controlled rovers across ramps and chicanes.</p>
+              <ul class="event-meta">
+                <li><strong>Timing:</strong> Day 2 • 02:00 PM</li>
+                <li><strong>Location:</strong> Central Quadrangle</li>
+              </ul>
+              <a href="#register" class="btn-small">Register for Event</a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="card-top">
+              <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80" alt="Live band performing under stage lights" />
+              <span class="event-tag">Cultural</span>
+            </div>
+            <div class="card-body">
+              <h3>RhythmX: Battle of the Bands</h3>
+              <p>Campus and visiting college bands take the outdoor stage for high-energy live sets.</p>
+              <ul class="event-meta">
+                <li><strong>Timing:</strong> Day 3 • 05:00 PM</li>
+                <li><strong>Location:</strong> Open Air Theatre</li>
+              </ul>
+              <a href="#register" class="btn-small">Register for Event</a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="card-top">
+              <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80" alt="Designers sketching user interface flows" />
+              <span class="event-tag">Design</span>
+            </div>
+            <div class="card-body">
+              <h3>PixelCraft UI/UX Sprint</h3>
+              <p>Turn a real campus problem statement into an interactive mobile or web prototype in 4 hours.</p>
+              <ul class="event-meta">
+                <li><strong>Timing:</strong> Day 1 • 01:30 PM</li>
+                <li><strong>Location:</strong> Design Studio 2</li>
+              </ul>
+              <a href="#register" class="btn-small">Register for Event</a>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="card-top">
+              <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80" alt="Students presenting a project demo at a booth" />
+              <span class="event-tag">Showcase</span>
+            </div>
+            <div class="card-body">
+              <h3>Club Project &amp; Maker Expo</h3>
+              <p>Walk through open-source tools, IoT builds, and student club demos with live Q&amp;A.</p>
+              <ul class="event-meta">
+                <li><strong>Timing:</strong> Day 3 • 01:30 PM</li>
+                <li><strong>Location:</strong> Main Atrium</li>
+              </ul>
+              <a href="#register" class="btn-small">Register for Event</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule Timetable Section -->
+    <section id="schedule" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Event Schedule &amp; Timetable</h2>
+        <p class="section-subtitle">Filter by day to plan your sessions, competitions, and evening shows.</p>
+
+        <div class="day-tabs" role="tablist" aria-label="Fest Schedule by Day">
+          <button class="day-tab active" data-day="day1" type="button">Day 1 (Apr 17)</button>
+          <button class="day-tab" data-day="day2" type="button">Day 2 (Apr 18)</button>
+          <button class="day-tab" data-day="day3" type="button">Day 3 (Apr 19)</button>
+        </div>
+
+        <div class="table-wrapper">
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th scope="col">Time</th>
+                <th scope="col">Event / Activity</th>
+                <th scope="col">Track</th>
+                <th scope="col">Venue</th>
+              </tr>
+            </thead>
+            <tbody id="schedule-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Organisers / Team Section -->
+    <section id="team" class="section">
+      <div class="container">
+        <h2 class="section-title">Organising Team</h2>
+        <p class="section-subtitle">Faculty mentors and student club leads coordinating TechPulse 2026.</p>
+
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="avatar" aria-hidden="true">👨‍🏫</div>
+            <h3>Dr. Rajesh Kulkarni</h3>
+            <p>Faculty Convener</p>
+          </div>
+          <div class="team-card">
+            <div class="avatar" aria-hidden="true">👩‍💻</div>
+            <h3>Ananya Deshmukh</h3>
+            <p>Coding Club Lead</p>
+          </div>
+          <div class="team-card">
+            <div class="avatar" aria-hidden="true">👨‍🎨</div>
+            <h3>Rohan Joshi</h3>
+            <p>Cultural &amp; Design Lead</p>
+          </div>
+          <div class="team-card">
+            <div class="avatar" aria-hidden="true">👩‍💼</div>
+            <h3>Priya Nair</h3>
+            <p>Sponsors &amp; Logistics</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sponsors & Partners Section -->
+    <section id="sponsors" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Sponsors &amp; Partners</h2>
+        <p class="section-subtitle">Backed by industry partners and campus student communities.</p>
+
+        <div class="sponsors-grid">
+          <div class="sponsor-card">CloudScale Systems</div>
+          <div class="sponsor-card">DevForge Labs</div>
+          <div class="sponsor-card">PulsePlay Gaming</div>
+          <div class="sponsor-card">CircuitWorks Co.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+      <div class="container narrow-container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Quick answers about passes, teams, and campus entry.</p>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>Can I register for more than one event?</summary>
+            <p>Yes. Select as many events as you like in the registration form below, provided their timings do not overlap.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do I need a prior team for the hackathon or esports events?</summary>
+            <p>You can register individually or with a team. We also host a brief team-matching mixer before kickoff.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Are students from other colleges welcome?</summary>
+            <p>Yes, visiting college students with a valid student ID are welcome across competitions and evening shows.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section id="register" class="section section-alt">
+      <div class="container narrow-container">
+        <h2 class="section-title">Event Registration</h2>
+        <p class="section-subtitle">Fill out your details and choose your events to reserve a spot[cite: 4].</p>
+
+        <form id="registration-form" class="reg-form" novalidate>
+          <div class="form-group">
+            <label for="full-name">Full Name *</label>
+            <input type="text" id="full-name" name="fullName" placeholder="e.g., Aarav Sharma" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email-address">Email Address *</label>
+            <input type="email" id="email-address" name="emailAddress" placeholder="aarav@college.edu" required />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="college-club">College / Campus Club *</label>
+              <input type="text" id="college-club" name="collegeClub" placeholder="e.g., Sahyadri Tech Club" required />
+            </div>
+
+            <div class="form-group">
+              <label for="academic-year">Year of Study *</label>
+              <select id="academic-year" name="academicYear" required>
+                <option value="">Select year</option>
+                <option value="1st Year">1st Year</option>
+                <option value="2nd Year">2nd Year</option>
+                <option value="3rd Year">3rd Year</option>
+                <option value="4th Year">4th Year</option>
+              </select>
+            </div>
+          </div>
+
+          <fieldset class="form-group">
+            <legend>Event Choice (Select at least one) *</legend>
+            <div class="checkbox-list">
+              <label class="checkbox-item">
+                <input type="checkbox" name="eventChoice" value="HackPulse 24-Hr Hackathon" />
+                <span>HackPulse 24-Hr Hackathon</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="eventChoice" value="CyberClash Esports Arena" />
+                <span>CyberClash Esports Arena</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="eventChoice" value="RoboWars & Line Follower" />
+                <span>RoboWars &amp; Line Follower</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="eventChoice" value="RhythmX: Battle of the Bands" />
+                <span>RhythmX: Battle of the Bands</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="eventChoice" value="PixelCraft UI/UX Sprint" />
+                <span>PixelCraft UI/UX Sprint</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="eventChoice" value="Club Project & Maker Expo" />
+                <span>Club Project &amp; Maker Expo</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <button type="submit" class="btn btn-primary full-width">Submit Registration</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>TechPulse 2026</h3>
+        <p>Annual College Fest &amp; Campus Club Showcase.</p>
+      </div>
+      <div>
+        <h4>Sections</h4>
+        <ul>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#register">Register</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Venue &amp; Contact</h4>
+        <p>Main Auditorium &amp; Tech Quad</p>
+        <p>Email: techpulse@campusclub.edu</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 TechPulse Campus Club. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
